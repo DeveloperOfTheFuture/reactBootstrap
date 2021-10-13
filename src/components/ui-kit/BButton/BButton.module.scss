@@ -1,0 +1,52 @@
+.BButton {
+  border-radius: .25rem;
+  padding: 6px 12px;
+  outline: none;
+  border: none;
+}
+
+.primary {
+  background-color: #0d6efd;
+  color: white;
+}
+
+.secondary {
+  color: #fff;
+  background-color: #6c757d;
+}
+
+.success {
+  color: #fff;
+  background-color: #198754;
+}
+
+.danger {
+  color: #fff;
+  background-color: #dc3545;
+}
+
+.warning {
+  color: #000;
+  background-color: #ffc107;
+}
+
+.info {
+  color: #000;
+  background-color: #0dcaf0;
+}
+
+.light {
+  color: #000;
+  background-color: #f8f9fa;
+}
+
+.dark {
+  color: #fff;
+  background-color: #212529;
+}
+
+.link {
+  font-weight: 400;
+  color: #0d6efd;
+  text-decoration: underline;
+}
