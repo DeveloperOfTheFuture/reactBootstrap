@@ -1,9 +1,13 @@
-.BButton {
-  border-radius: .25rem;
+.BBadge {
+  font-weight: 700;
+  font-size: .75em;
+  display: inline-block;
   color: var(--ui-white);
-  padding: 6px 12px;
-  outline: none;
-  border: none;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 4px;
+  padding: 4px 8px;
 
   &.primary {
     background-color: var(--ui-primary);
@@ -38,11 +42,5 @@
 
   &.dark {
     background-color: var(--ui-dark);
-  }
-
-  &.link {
-    font-weight: 400;
-    color: var(--ui-primary);
-    text-decoration: underline;
   }
 }

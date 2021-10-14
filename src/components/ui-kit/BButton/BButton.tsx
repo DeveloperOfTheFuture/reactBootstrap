@@ -19,7 +19,7 @@ enum ButtonTypes {
   link = 'link'
 }
 
-const BButton: FC<BButtonProps> = ({children, type = 'primary'}) => {
+const BButton: FC<BButtonProps> = ({children, type = ButtonTypes.primary}) => {
   const btnClassNames = classNames(
     style.BButton,
     {
