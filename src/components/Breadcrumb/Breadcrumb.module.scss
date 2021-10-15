@@ -1,0 +1,36 @@
+.Breadcrumb {
+
+
+  &__list {
+    list-style: none;
+    display: flex;
+  }
+
+  &__item {
+
+    &+& {
+      padding-left: .5rem;
+
+      &::before {
+        content: '/';
+        color: #6c757d;
+        padding-right: .5rem;
+      }
+    }
+
+    &_active {
+      color: #6c757d;
+      padding-left: .5rem;
+
+      &::before {
+        content: '/';
+        color: #6c757d;
+        padding-right: .5rem;
+      }
+    }
+  }
+
+  &__link {
+    color: var(--ui-primary);
+  }
+}

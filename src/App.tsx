@@ -3,6 +3,7 @@ import './styles.scss';
 import BBadgeContainer from "./components/ui-kit/BBadge/BBadgeContainer";
 import BButtonContainer from "./components/ui-kit/BButton/BButtonContainer";
 import BAlertContainer from "./components/ui-kit/Alert/BAlertContainer";
+import Breadcrumb from "./components/Breadcrumb/Breadcrumb";
 
 const App: FC = () => {
   return (
@@ -11,6 +12,7 @@ const App: FC = () => {
       <BButtonContainer/>
       <BBadgeContainer/>
       <BAlertContainer/>
+      <Breadcrumb />
     </div>
   );
 };
