@@ -7,7 +7,7 @@ interface BButtonProps {
   type?: string;
 }
 
-enum ButtonTypes {
+export enum ButtonTypes {
   primary = 'primary',
   secondary = 'secondary',
   success = 'success',

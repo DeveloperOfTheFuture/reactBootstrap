@@ -1,21 +1,21 @@
 import React, {FC} from 'react';
 import ComponentsContainer from "../../layout/ComponentsContainer/ComponentsContainer";
-import BButton from "./BButton";
+import BButton, {ButtonTypes} from "./BButton";
 
 const BButtonContainer: FC = () => {
   return (
     <>
       <h2>Buttons</h2>
       <ComponentsContainer>
-        <BButton type='primary'>Primary</BButton>
-        <BButton type='secondary'>Secondary</BButton>
-        <BButton type='success'>Success</BButton>
-        <BButton type='danger'>Danger</BButton>
-        <BButton type='warning'>Warning</BButton>
-        <BButton type='info'>Info</BButton>
-        <BButton type='light'>Light</BButton>
-        <BButton type='dark'>Dark</BButton>
-        <BButton type='link'>Link</BButton>
+        <BButton type={ButtonTypes.primary}>Primary</BButton>
+        <BButton type={ButtonTypes.secondary}>Secondary</BButton>
+        <BButton type={ButtonTypes.success}>Success</BButton>
+        <BButton type={ButtonTypes.danger}>Danger</BButton>
+        <BButton type={ButtonTypes.warning}>Warning</BButton>
+        <BButton type={ButtonTypes.info}>Info</BButton>
+        <BButton type={ButtonTypes.light}>Light</BButton>
+        <BButton type={ButtonTypes.dark}>Dark</BButton>
+        <BButton type={ButtonTypes.link}>Link</BButton>
       </ComponentsContainer>
     </>
   );

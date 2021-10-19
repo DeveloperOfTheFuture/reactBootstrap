@@ -7,7 +7,7 @@ interface BBadgeProps {
   type?: string;
 }
 
-enum BadgeTypes {
+export enum BadgeTypes {
   primary = 'primary',
   secondary = 'secondary',
   success = 'success',

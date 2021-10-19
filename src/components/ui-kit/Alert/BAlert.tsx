@@ -7,7 +7,7 @@ interface BAlertProps {
   type?: string;
 }
 
-enum BAlertTypes {
+export enum BAlertTypes {
   primary = 'primary',
   secondary = 'secondary',
   success = 'success',

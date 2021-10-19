@@ -1,0 +1,19 @@
+.pagination {
+  display: flex;
+  list-style: none;
+
+  .item + .item {
+    margin-left: -1px;
+  }
+
+  .link {
+    color: var(--ui-primary);
+    text-decoration: none;
+    border: 1px solid var(--ui-secondary);
+    padding: 6px 12px;
+  }
+
+  .icon {
+
+  }
+}
